@@ -38,3 +38,50 @@ h1{
     margin-bottom: 20px;
     text-align: center;
 }
+
+.display{
+    width: 100%;
+    height: 80px;
+    background-color: #1f242d;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 20px;
+    font-size: 2rem;
+    color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+.buttons{
+    margin-top: 10px;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #333333;
+    box-shadow: 0 4px #1c1c1c;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:active {
+    box-shadow: 0 2px #1c1c1c;
+    transform: translateY(2px);
+}
+
+button.operator {
+    background-color: #f1a33c;
+    color: #ffffff;
+}
+
+button#btn-clear {
+    background-color: #d4d4d2;
+    color: #000000;
+}
